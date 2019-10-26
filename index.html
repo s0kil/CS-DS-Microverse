@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
+    <div id="mocha"></div>
+
+    <main id="main-doc">
+      <section class="main-section">Section 1</section>
+      <section class="main-section">Section 2</section>
+      <section class="main-section">Section 3</section>
+      <section class="main-section">Section 4</section>
+      <section class="main-section">Section 5</section>
+      <section class="main-section">Section 6</section>
+    </main>
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+      const projectName = "technical-docs-page";
+      localStorage.setItem("example_project", "Technical Docs Page");
+    </script>
   </body>
 </html>
